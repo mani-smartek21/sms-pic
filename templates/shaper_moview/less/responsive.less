@@ -1,0 +1,745 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2016 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+ */
+
+
+ /* Extra Large Devices, Wide Screens */
+
+ @media only screen and (min-width: 1400px) {
+    #sp-moview-movie {
+        .item {
+            .movie-details {
+                bottom: -52px;
+            }
+            &:hover {
+                .play-icon {
+                    -webkit-transform: translate(-50%, -50%, ) scale(1);
+                    transform: translate(-50%, -50%, ) scale(1);
+                }
+            }
+            .play-icon {
+                top: 50%;
+                left: 50%;
+                -webkit-transform: translate(-50%, -50%, ) scale(0);
+                transform: translate(-50%, -50%, ) scale(0);
+            }
+        }
+    }
+    .sp-moviedb-rating {
+        font-size: 19px;
+    }
+}
+
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width: 1200px) {
+    #sp-moview-movie {
+        .item {
+            &:hover {
+                .play-icon {
+                    top: 30%;
+                }
+            }
+            .play-icon {
+                font-size: 50px;
+            }
+        }
+    }
+    #sp-header .logo {
+        right: 30px;
+    }
+    .sp-moviedb-login {
+        margin: 0;
+    }
+    .sorting-by-alphabetical ul > li {
+        margin-bottom: 15px;
+    }
+    // movie-details
+    .movie-details-wrap .movie-info-sidebar,
+    .celebrity-details-wrap .celebrity-info-sidebar {
+        width: 230px;
+    }
+    .movie-details-wrap .movie-info-sidebar.stick .img-wrap,
+    .celebrity-details-wrap .celebrity-info-sidebar.stick .img-wrap {
+        width: 200px;
+    }
+    //sp-comingsoon
+    .sp-comingsoon .days,
+    .sp-comingsoon .hours,
+    .sp-comingsoon .minutes,
+    .sp-comingsoon .seconds {
+        margin: 0 60px 60px 0;
+    }
+}
+
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    //user menu
+    .sp-my-account-menu ul.menu{
+        right: -100%;
+        left: initial;
+    }
+    body.rtl #sp-header .logo {
+        left: 0 !important;
+    }
+    // movie-details
+    .movie-details-wrap .movie-info-sidebar,
+    .celebrity-details-wrap .celebrity-info-sidebar {
+        width: 180px;
+    }
+    .movie-details-wrap .movie-info-sidebar.stick .img-wrap,
+    .celebrity-details-wrap .celebrity-info-sidebar.stick .img-wrap {
+        width: 160px;
+    }
+    .info-text {
+        display: none;
+    }
+    #sp-moview-movie .item .movie-details {
+        bottom: -52px;
+    }
+    .sppb-trailer-modal-item .play-icon {
+        font-size: 25px;
+    }
+    .sp-bottom-footer #sp-bottom {
+        h3.sp-module-title {
+            margin-left: 70px;
+            &:before {
+                top: 0;
+                left: -70px;
+            }
+        }
+    }
+    #sp-bottom1,
+    #sp-bottom2,
+    #sp-bottom3 {
+        margin-bottom: 30px;
+        clear: both;
+        overflow: hidden;
+    }
+}
+
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    // Global Typograph
+    h1{
+        font-size: 30px !important; 
+        line-height: 35px !important;
+        small{
+            letter-spacing: inherit !important;
+        }
+    }
+    h2{
+        font-size: 25px !important; 
+        line-height: 30px !important;
+    }
+    h3{
+        font-size: 20px !important; 
+        line-height: 25px !important;
+    }
+    h4{
+        font-size: 18px !important; 
+        line-height: 23px !important;
+    }
+    p{
+        font-size: 14px;
+    }
+    //mixed responsive
+    .spb-res-margin{
+        margin: 50px 0 !important; // Decrease Section margin, when widows size less than 768px;
+    }
+    .spb-res-padding{
+        padding: 50px 0 !important; // Decrease Section padding, when widows size less than 768px;
+    }
+    .spb-res-mixed-padding{
+        padding: 50px 0 100px !important; // Decrease Section padding, when widows size less than 768px;
+    }
+    #sp-logo {
+        width: 50%;
+    }
+    #sp-search {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    #sp-login {
+        width: 30%;
+        position: absolute;
+        right: 30px;
+    }
+    body.rtl{
+        #sp-login {
+            width: auto;
+            position: absolute;
+            left: 15px;
+            right: initial;
+        } 
+        .offcanvas-menu .offcanvas-inner .sp-module ul > li .offcanvas-menu-toggler{
+            right: initial;
+            left: 0;
+        }
+    }
+    #sp-header .logo {
+        right: 0px;
+    }
+    ul.spmoviedb-movie-search{
+        max-height: 250px;
+        overflow-y: auto;
+    }
+    #sp-page-builder .sppb-section-title {
+        h1.sppb-title-heading {
+            font-size: 28px;
+        }
+        h2.sppb-title-heading {
+            font-size: 24px;
+        }
+        h3.sppb-title-heading {
+            font-size: 20px;
+        }
+        h4.sppb-title-heading {
+            font-size: 18px;
+        }
+    }
+    #sp-page-builder h1 {
+        font-size: 28px !important;
+    }
+    #sp-page-builder h2 {
+        font-size: 24px !important;
+    }
+    #sp-page-builder h3 {
+        font-size: 20px !important;
+    }
+    #sp-page-builder h4 {
+        font-size: 18px !important;
+    }
+    .spmoviedb-title .sppb-addon-title {
+        font-size: 20px;
+    }
+    .moview-before-title-icon {
+        font-size: 25px;
+    }
+    .spmoviedb-tab .nav-tabs > li {
+        margin-bottom: 15px;
+    }
+    .spmoviedb-tab .owl-controls .owl-nav{
+        top: -20px;
+    }
+    .sppb-trailer-modal-item {
+        width: 50%;
+    }
+    .moviedb-twitter-flickr {
+        padding: 30px !important;
+        background: none !important;
+        background-color: #00aeef !important;
+    }
+    .spmoviedb-flickr {
+        margin-bottom: 50px;
+    }
+    .spmoviedb-twitter {
+        padding-left: 0;
+    }
+    .moview-top-celebraties {
+        margin-top: 50px;
+    }
+    .moview-top-celebraties .sppb-top-celebrity .sppb-top-celebrities-info .sppb-celebrities-name {
+        font-size: 20px;
+    }
+    .moviedb-some-about-info {
+        .sppb-media {
+            >.pull-left {
+                width: 100%;
+                margin-bottom: 30px;
+                img {
+                    width: 100%;
+                }
+            }
+            .sppb-media-body {
+                width: 100%;
+            }
+        }
+    }
+    .spmoviedb-title .more-details {
+        float: left;
+        clear: both;
+    }
+    .sppb-addon-articles .article-info .sppb-article-meta {
+        i {
+            display: inline-block;
+            margin: 10px 10px 10px 0;
+        }
+    }
+    .sorting-by-category ul > li {
+        margin-right: 15px;
+    }
+    .item .movie-poster,
+    .item .celebritie-poster {
+        img {
+            width: 100%;
+        }
+    }
+    .spmoviedb-trailer-item.leading .sp-spmoviedb-trailers-info{
+        margin-top: 0;
+    }
+    .movie-info .count-rating-wrapper,
+    .celebrity-info .count-rating-wrapper {
+        text-align: center;
+        margin-top: 20px;
+        width: 100%;
+        .count-rating{
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            font-size: 25px;
+            display: inline-block;
+            span {
+               margin-top: 3px;
+               font-size: 20px;
+               line-height: 70px;
+               display: block;
+           }
+           &:before {
+            font-size: 55px;
+            left: 0;
+            width: 70px;
+            height: 70px;
+            line-height: 70px;
+            margin-left: 0;
+        }
+    }
+}
+.view-spmoviedb-movie .movie-cover,
+.view-spmoviedb-celebrity .celebrity-cover {
+    margin-bottom: 0;
+    padding-top: 100px;
+    &:before{
+        -webkit-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+        height: 350px;
+    }
+    img {
+        min-height: 200px;
+    }
+}
+.movie-info .movie-title,
+.celebrity-info .movie-title {
+    font-size: 24px;
+    margin: 0 0 10px 0;
+}
+.movie-info .rating-star,
+.celebrity-info .rating-star {
+    margin-top: 5px;
+}
+.recommend-movies .item {
+    margin-bottom: 30px;
+}
+    // movie-details
+    .movie-details-wrap .movie-info-sidebar,
+    .celebrity-details-wrap .celebrity-info-sidebar {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .movie-details-wrap .movie-info-sidebar,
+    .celebrity-details-wrap .celebrity-info-sidebar {
+        ul>li {
+            margin-bottom: 5px;
+        }
+        &.stick {
+            width: 100%;
+            position: relative !important;
+            top: 0 !important;
+            .img-wrap {
+                img {
+                    display: block;
+                }
+            }
+            a.buy-ticket {
+                display: inline-block;
+                margin-top: 15px;
+            }
+        }
+        .img-wrap {
+            background: none !important;
+            margin-top: 0;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .movie-details-wrap .movie-info-warpper,
+    .celebrity-details-wrap .movie-info-warpper {
+        .movie-info,
+        .celebrity-info {
+            color: #000;
+            .rating-star > span {
+                color: #000;
+            }
+        }
+    }
+    .user-reviews .profile-img {
+        margin-bottom: 20px;
+    }
+    .user-reviews .review-box-wrap {
+        padding: 0;
+    }
+    .user-reviews .review-box {
+        margin-left: 0;
+    }
+    .movie-details-wrap .movie-info-sidebar a.buy-ticket,
+    .celebrity-details-wrap .celebrity-info-sidebar a.buy-ticket{
+        font-size: 14px;
+    }
+    .spmoviedb-trailer-item.leading{
+        margin-bottom: 30px;
+        .play-icon {
+            font-size: 50px;
+        }
+    }
+    .spmoviedb-trailer-item .play-icon {
+        font-size: 50px;
+    }
+    .spmoviedb-trailer-item.leading .sp-spmoviedb-trailers-info {
+        padding: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+    .spmoviedb-trailer-item.leading .sp-spmoviedb-trailers-info .spmoviedb-trailer-info-block{
+        margin-top: 0;
+    }
+
+    .sp-bottom-footer #sp-footer #sp-footer2 {
+        float: left;
+    }
+    .sp-bottom-footer #sp-footer #sp-footer1 {
+        padding-left: 15px;
+    }
+    //comingsoon
+    .sp-comingsoon {
+        img {
+            display: inline-block;
+        }
+    }
+    .sp-comingsoon .sp-comingsoon-wrap .container {
+        position: relative;
+        left: inherit;
+        transform: inherit;
+        margin: 0;
+    }
+    .sp-comingsoon #sp-comingsoon {
+        margin-top: 100px;
+        padding-left: 0;
+    }
+    .sp-comingsoon .sp-comingsoon-wrap .sp-comingsoon-title {
+        font-size: 25px;
+        margin-top: 50px;
+    }
+    .sp-comingsoon .sp-comingsoon-wrap .content {
+        padding: 30px;
+        text-align: center;
+    }
+    .sp-comingsoon .days,
+    .sp-comingsoon .hours,
+    .sp-comingsoon .minutes,
+    .sp-comingsoon .seconds {
+        display: inline-block;
+        text-align: center;
+        margin: 30px;
+    }
+    .sp-comingsoon .sp-comingsoon-content {
+        font-size: 30px;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    #sp-bottom {
+        padding: 50px 0px 0 0 !important;
+    }
+    body.rtl .sp-bottom-footer #sp-footer #sp-footer1 {
+        padding-right: 15px !important;
+    }
+    body.rtl .sp-bottom-footer #sp-footer #sp-footer2{
+        padding-left: 15px !important;
+    }
+}
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .sp-moviedb-login .modal-content .modal-header {
+        padding: 0;
+    }
+    .sp-moviedb-login .modal-content{
+        padding: 15px;
+    }
+    .sp-moviedb-login .modal-content .modal-body {
+        margin-bottom: 20px;
+        padding: 15px 0;
+    }
+    .sp-moviedb-login .modal-content .modal-footer {
+        max-height: initial;
+        text-align: left;
+        padding: 5px 0;
+    }
+    .sp-moviedb-login .modal-content .modal-body .forget-name-link{
+        margin-left: 0;
+    }
+    .sp-page-title {
+        text-align: center;
+        .page-header-title-wrap,
+        .page-header-icon-wrap{
+            width: 100%;
+            .moview-before-title-icon{
+                margin-right: 0 !important;
+                margin-bottom: 20px;
+                display: block;
+                font-size: 35px;
+            }
+        }
+        .page-header-title {
+            font-size: 20px;
+        }
+        .breadcrumb {
+            line-height: inherit;
+            float: none;
+            margin-top: 10px;
+        }
+    }
+
+    #sp-moview-movie .item .movie-details {
+        bottom: -32px;
+    }
+    .sp-spmoviedb-trailers-info .thumb-img {
+        display: none !important;
+    }
+    .sorting-by-category ul > li {
+        margin-bottom: 20px;
+    }
+    .sppb-addon-moview-title .moview-before-title-icon {
+        margin-right: 15px;
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    .sppb-addon-moview-title .sppb-title-link {
+        display: block;
+        text-align: left;
+        float: none !important;
+        clear: both;
+    }
+    .spmoviedb-tab .nav-tabs > li {
+        margin-bottom: 5px;
+    }
+    .sppb-addon-articles .article-info .article-title{
+        margin-bottom: 5px;
+    }
+    .movie-details-wrap .header-title .title,
+    .celebrity-details-wrap .header-title .title {
+        margin: 0 0 15px;
+    }
+    .user-reviews .reviews-menu ul > li {
+        margin-bottom: 10px;
+    }
+    .user-reviews .reviewers-form .review-box {
+        padding: 15px 15px 70px 15px;
+    }
+    .movie-showtime .category-list .see-all {
+        float: none !important;
+        text-align: center;
+        clear: both;
+    }
+    .movie-showtime .movie-schedule {
+        >div {
+        }
+    }
+    .movie-showtime .movie-schedule .times > ul li {
+        margin-bottom: 10px;
+    }
+    .movie-showtime .movie-schedule .ticket-urls{
+        width: 100%;
+        .btn{
+            display: block;
+         }
+    }
+    .sppb-trailer-modal-item.leading .play-icon {
+        font-size: 25px;
+    }
+    .view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2,
+    .view-article article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .view-category article.item .entry-header-wrapper,
+    .view-article article.item .entry-header-wrapper {
+        &:before {
+            -webkit-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+            background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, #000000 100%);
+        }
+        .entry-header {
+            bottom: 30px;
+            .entry-title-info-wrap h2 {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                max-height: 20px;
+                line-height: 20px;
+                -webkit-line-clamp: 1;
+                -webkit-box-orient: vertical;
+            }
+        }
+        .entry-date-wrapper {
+            width: 50px !important;
+            height: 50px !important;
+            .entry-date-day {
+                font-size: 18px !important;
+                margin-top: 5px !important;
+            }
+            .entry-date-month-year {
+                font-size: 12px !important;
+                line-height: 14px !important;
+            }
+        }
+        .entry-image {
+            img {
+                min-height: 250px;
+            }
+        }
+        .entry-title-info-wrap dl.article-info dd {
+            font-size: 14px !important;
+        }
+    }
+    .view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .view-article .article-item-header-wrapper:before {
+        -webkit-background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #000000 100%);
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, #000000 100%);
+    }
+    .view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header {
+        dl.article-info {
+            clear: both;
+        }
+        .entry-date-wrapper {
+            margin-bottom: 30px;
+        }
+    }
+    .spmoviedb-trailer-item.subleading {
+        margin-top: 15px;
+        width: 100%;
+        .spmoviedb-trailer-info-block {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .play-icon {
+            font-size: 40px;
+        }
+    }
+    .sp-bottom-footer #sp-footer #sp-footer2 {
+        text-align: inherit;
+    }
+    .sp-bottom-footer #sp-footer #sp-footer1 {
+        padding-left: 15px;
+    }
+    .sp-bottom-footer #sp-footer #sp-footer1 ul.menu li a {
+        margin-right: 12px;
+    }
+    .spmoviedb-filmography ul.spmoviedb-film-list > li .sp-moviedb-rating-wrap {
+        float: left !important;
+        margin: 15px 0;
+    }
+    .input-group .form-control {
+        padding-left: 25px;
+    }
+    .view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd {
+        margin-bottom: 5px;
+    }
+    .view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header dl.article-info dd {
+        margin: 0 0 5px 8px;
+    }
+    .movie-showtime .movie-schedule .times > ul li {
+        margin-right: 5px;
+    }
+    .spmoviedb-tab .owl-controls .owl-nav {
+        top: 10px;
+    }
+    .spmoviedb-trailer-item .count-rating {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 48px;
+        &:before {
+            font-size: 48px;
+        }
+        span {
+            margin-left: 0;
+            font-size: 22px;
+            line-height: 55px;
+        }
+    }
+    body.rtl .sp-bottom-footer #sp-footer #sp-footer1,
+    body.rtl .sp-bottom-footer #sp-footer #sp-footer2{
+        text-align: center !important;
+    }
+    body.rtl .sp-bottom-footer #sp-footer #sp-footer1 ul.menu li a {
+        margin-right: 0 !important;
+        margin-left: 10px !important;
+    }
+    body.rtl .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-1 a:first-child,
+    body.rtl .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-2 a:first-child {
+        margin-right: 0;
+    }
+    body.rtl .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-1>a,
+    body.rtl .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-2>a{
+        float: right !important;
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    //search hide in sticky
+    .sticky-wrapper.is-sticky #sp-search{
+        display: none;
+    }
+    //Footer
+    .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-1 a:first-child,
+    .sp-bottom-footer #sp-bottom #sp-bottom3 .bottom-add .add-section-2 a:first-child {
+        margin-bottom: 25px;
+    }
+    .sp-moviedb-login .sp-login > a{
+        float: right;
+    }
+    .sp-moviedb-login .sp-login i {
+        margin-right: 0;
+    }
+    .view-article .acticle-bottom-wrapper dd.post_rating {
+        float: left;
+    }
+    .spmoviedb-tab .nav-tabs > li {
+        margin-right: 20px;
+    }
+    .sp-spmoviedb-trailers-info .spmoviedb-trailer-info-block {
+        width: 65%;
+    }
+    .spmoviedb-trailer-item a {
+        font-size: 14px;
+    }
+    .view-page .sp-spmoviedb-trailers-info .spmoviedb-genry {
+        font-size: 12px;
+    }
+    .reviews-menu .pull-right {
+        float: left !important;
+    }
+    .user-reviews .reviewers-review .date-time {
+        font-size: 14px;
+    }
+    .view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd {
+        padding-right: 0;
+    }
+}

@@ -1,0 +1,435 @@
+body {
+  color: #000000;
+}
+body,
+.modal-content {
+  background-color: #ffffff;
+}
+#sp-header {
+  background-color: #ffffff;
+}
+#sp-header #searchword,
+#sp-header select {
+  background-color: #ffffff;
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+  color: #000000;
+}
+a,
+a:focus,
+.spmoviedb-trailers .movie-title a:hover,
+.spmoviedb-tab .owl-controls .owl-prev:hover::after,
+.spmoviedb-tab .owl-controls .owl-next:hover::after,
+.view-searchresults .moviedb-view-top-wrap .search-result-title :before,
+.comingsoon-footer .social-icons li a :hover,
+.sppb-addon-moview-title:hover:after,
+#offcanvas-toggler > i :hover,
+ul.social-icons > li a:hover,
+.sp-module ul > li > a:hover,
+.sp-module .latestnews > div > a:hover,
+#spmoviedb-movie .movie-name a:hover,
+#spmoviedb-movie .item .movie-details a:hover,
+#spmoviedb-movie .item:hover .play-icon:hover,
+.celebritie-details .celebritie-name a:hover,
+.view-movie .sppb-trailer-modal-item a:hover,
+.view-celebrity .sppb-trailer-modal-item a:hover,
+.view-trailers .spmoviedb-trailer-item-details .spmoviedb-movie-title a:hover,
+.movie-details-wrap .movie-info-sidebar a:hover,
+.celebrity-details-wrap .celebrity-info-sidebar a:hover,
+.user-reviews .reviewers-review .reviewers-name a:hover,
+.movie-showtime .category-list a:hover,
+.movie-showtime .movie-schedule .address i,
+.recommend-movies .movie-details a:hover,
+.sp-moviedb-view-items .item .movie-name a:hover,
+.spmoviedb-tab .movie-details .movie-name a:hover,
+.voting-symbol span.star.active:before,
+.pagination > li .active > a
+.pagination > li .active > a:hover,
+.pagination > li .active > a:focus,
+.pagination > li .active > span,
+.pagination > li .active > span:hover,
+.pagination > li .active > span:focus,
+.moview-before-title-icon,
+.spmoviedb-title .more-details a:hover
+.spmoviedb-title .more-details a:hover :after,
+.login .form-links a:hover,
+.login .form-links a:active,
+.login .form-links a:focus,
+.sp-moviedb-login .sp-login i.sp-moview-icon-user,
+.sp-moviedb-login .sp-signin i.sp-moview-icon-user,
+.sp-moviedb-login a:hover,
+.sppb-addon-articles .sppb-addon-title:before,
+.spmoviedb-twitter .sppb-tweet-slider .sppb-twitter-item-info a:hover,
+.spmoviedb-trailer-item .play-icon:hover,
+.basic-movie-info .sppb-addon-feature .sppb-media-body .continue:hover,
+.basic-movie-info .sppb-addon-feature .sppb-media-body .continue:hover:after,
+.mod-spmoviedb-celebrities .moviedb-celebrity-info .moviedb-celebrity-name a:hover,
+.view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd a:hover,
+.view-article article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd a:hover,
+.view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2:hover a,
+.view-article article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2:hover a,
+.view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header dl.article-info dd a:hover,
+.sp-page-title .breadcrumb >.active,
+.sp-page-title .breadcrumb >span >li > li+li:before >li>a:hover,
+.btn.jmodedit,
+a.sppb-title-link:hover,
+a.sppb-title-link:hover:after,
+.sp-spmoviedb-trailers .sppb-addon-moview-title a.sppb-title-link:hover,
+.sp-spmoviedb-trailers .sppb-addon-moview-title a.sppb-title-link:hover:after,
+.moviedb-filters ul > li > a:hover,
+.btn-link,
+.close-offcanvas:hover,
+.moviedb-filters ul > li.active > a,
+.pagination >li.active >a,
+.pagination >li.active >a:hover,
+.spmoviedb-tab .item:hover .play-icon:hover,
+.view-movies .item:hover .play-icon:hover,
+.view-trailers .item:hover .play-icon:hover,
+.view-celebrities .item:hover .play-icon:hover,
+.sp-spmoviedb-trailers-info .spmoviedb-trailer-info-block .spmoviedb-genry a:hover,
+.view-trailers .spmoviedb-trailer-item-details .trailer-genres a:hover,
+.movie-info .spmoviedb-genre-title:hover,
+.sp-moviedb-login .sp-login a:hover {
+  color: #f26522;
+}
+.view-article ul.pagenav li > a {
+  border: 1px solid #f26522;
+}
+.moviedb-filters ul > li.active > a {
+  border-bottom-color: #f26522;
+}
+ul.splms-courses-search li a:hover i,
+.moviedb-social-bar > li a:hover {
+  color: #f26522 !important;
+}
+a:hover,
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before,
+.btn-link:hover {
+  color: #d54d0d;
+}
+.sp-module .tagscloud .tag-name:hover,
+#spmoviedb-movie .owl-controls .owl-prev,
+#spmoviedb-movie .owl-controls .owl-next,
+#spmoviedb-movie .owl-dots .owl-dot.active span,
+#spmoviedb-movie .owl-dots .owl-dot:hover span,
+.slider-nav-thumbnails .slick-slide.slick-current,
+.spmoviedb-tab .nav-tabs > li > a:after,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover,
+.entry-link,
+.entry-quote,
+.post-format,
+.search .btn-toolbar button,
+.carousel-left:hover,
+.carousel-right:hover,
+.view-profile .profile .btn-toolbar .btn,
+.view-profile button,
+.sppb-addon-articles .sppb-addon-article:hover .sppb-meta-category,
+.sppb-addon-articles .article-info .sppb-meta-category:hover,
+.view-category article.item .entry-details-wrapper p.readmore a.btn,
+.view-article article.item .entry-details-wrapper p.readmore a.btn,
+.view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header .entry-date-wrapper,
+.view-article ul.pagenav li > a,
+.view-article ul.pagenav li > a:hover {
+  background-color: #f26522;
+}
+#spmoviedb-movie .owl-controls .owl-prev:hover,
+#spmoviedb-movie .owl-controls .owl-next:hover,
+.video-container .video-close:hover::before,
+.video-container .video-close:hover::after {
+  background-color: #bc440b;
+}
+.view-category article.item .entry-details-wrapper p.readmore a.btn:hover,
+.view-article article.item .entry-details-wrapper p.readmore a.btn:hover {
+  background-color: #d54d0d;
+}
+.sp-movie-celebrities .celebrity-thumbs button.celebrity-thumb-item.active:before,
+.spmoviedb-flickr .sppb-flickr-gallery >li > a:after {
+  background-color: rgba(242,101,34,0.5);
+}
+.view-category article.item .entry-header-wrapper:hover span.post-format,
+.view-category article.item .entry-header-wrapper:hover .entry-date-wrapper,
+.view-article article.item .entry-header-wrapper:hover span.post-format,
+.view-article article.item .entry-header-wrapper:hover .entry-date-wrapper {
+  background-color: rgba(242,101,34,0.7);
+}
+.sorting-by-alphabetical ul > li.active > a {
+  border-bottom-color: #f26522;
+}
+.video-container .video-close:hover,
+.moviedb-sorting-wrap .sorting-by-category ul > li > a:hover,
+.moviedb-sorting-wrap .sorting-by-category ul > li.active > a,
+blockquote {
+  border-color: #f26522;
+}
+.btn-primary,
+.sppb-btn-primary {
+  background-color: #f26522;
+  box-shadow: inset 0px -1px 0px #bc440b;
+}
+.btn-primary:after,
+.sppb-btn-primary:after {
+  background: linear-gradient(to top,#8c3308 0%,#f2621d 70%);
+  background: -webkit-linear-gradient(to top,#8c3308 0%,#f2621d 70%);
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.sppb-btn-primary:hover,
+.sppb-btn-primary:focus,
+.sppb-btn-primary:active {
+  background-color: #d54d0d;
+  box-shadow: inset 0px -1px 0px #8c3308;
+}
+.btn-primary:hover:after,
+.btn-primary:focus:after,
+.btn-primary:active:after,
+.sppb-btn-primary:hover:after,
+.sppb-btn-primary:focus:after,
+.sppb-btn-primary:active:after {
+  background: linear-gradient(to top,#5c2105 0%,#d54d0d 70%);
+  background: -webkit-linear-gradient(to top,#5c2105 0%,#d54d0d 70%);
+}
+.sppb-addon-moview-title,
+.input-group.moviedb-search-wrap,
+#moviedb-search .search-panel .select-menu,
+.spmoviedb-title,
+.basic-movie-info .sppb-addon-text-block,
+.moview-top-celebraties .sppb-addon-text-block,
+.modal-footer,
+.movie-showtime .movie-schedule,
+.spmoviedb-filmography ul.spmoviedb-film-list > li {
+  border-color: #e5e5e5;
+}
+.spmoviedb-title .more-details a::after {
+  color: #e5e5e5;
+}
+.offcanvas-menu .offcanvas-inner .sp-module .sp-module-title,
+.sppb-addon-articles .article-info .article-title a,
+.sppb-article-meta span,
+.mod-spmoviedb-celebrities .moviedb-celebrity-info .moviedb-celebrity-name a,
+.sorting-by-alphabetical .select-menu select,
+.sorting-by-alphabetical .select-menu::after,
+.recommend-movies .movie-details a,
+.movie-info-sidebar .movie-social-icon > span,
+.celebrity-info-sidebar .movie-social-icon > span,
+.spmoviedb-filmography ul.spmoviedb-film-list > li .details a,
+.spmoviedb-tab .nav-tabs > li > a,
+#sp-login .sp-mod-login .sp-signin a,
+.sp-moviedb-login .sp-login a,
+.sp-moviedb-login .sp-signin a,
+.sp-moviedb-login .modal-content .modal-body .forget-name-link a,
+#offcanvas-toggler > i,
+.sp-module ul > li > a,
+.sp-module .latestnews >div > a,
+.login .form-links a,
+.pagination >li >a:hover,
+.moviedb-filters ul > li > a,
+.view-article .acticle-bottom-wrapper dd.post_rating,
+.social-share-title p,
+.entry-header h2 a,
+legend {
+  color: #000000;
+}
+.spmoviedb-tab .owl-controls .owl-nav:before {
+  background-color: #e5e5e5;
+}
+.sorting-by-alphabetical ul > li.active > a,
+.sorting-by-alphabetical ul > li:hover > a,
+.sp-moviedb-view-items .item .movie-name a,
+.movie-details-wrap .movie-info-sidebar a,
+.celebrity-details-wrap .celebrity-info-sidebar a,
+.celebritie-details .celebritie-name a,
+.spmoviedb-tab .movie-details .movie-name a,
+.sorting-by-alphabetical .total,
+#sp-spmoviedb-tab .nav-tabs>li.active>a,
+#sp-spmoviedb-tab .nav-tabs>li.active>a:hover,
+#sp-spmoviedb-tab .nav-tabs>li.active>a:focus,
+.spmoviedb-tab .nav-tabs > li > a:hover {
+  color: #1a1a1a;
+}
+.sppb-addon-moview-title .sppb-title-link {
+  color: #808080;
+}
+.sppb-addon-moview-title .sppb-title-link:after {
+  color: #e6e6e6;
+}
+.acticle-bottom-wrapper {
+  border-top: solid 1px #e5e5e5;
+  border-bottom: solid 1px #e5e5e5;
+}
+.pagination {
+  margin-bottom: 0;
+}
+.pagination >li >a,
+.pagination >li >span {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+.pagination >li >a:hover,
+.pagination >li >a:focus,
+.pagination >li >span:hover,
+.pagination >li >span:focus {
+  border-color: #e5e5e5;
+}
+.pagination >li.active >a,
+.pagination >li.active >a:hover,
+.pagination >li.active >a:focus,
+.pagination >li.active >span,
+.pagination >li.active >span:hover,
+.pagination >li.active >span:focus {
+  border-color: #e5e5e5;
+}
+.pagination>.disabled>a {
+  border-color: #e5e5e5;
+}
+.pagination>.disabled>a:hover {
+  border-color: #e5e5e5;
+}
+.user-reviews .review-box {
+  background-color: #edf6fc;
+}
+.user-reviews .review-box textarea {
+  background-color: #ffffff;
+  border-color: #e5e5e5;
+}
+.user-reviews .review-box textarea[disabled] {
+  background-color: #eeeeee;
+}
+.user-reviews .review-box:before {
+  border-color: transparent #edf6fc transparent transparent;
+}
+#reviewers-form-popup {
+  background-color: #ffffff;
+}
+.view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header .entry-date-wrapper {
+  float: left;
+}
+.view-article ul.pagenav {
+  margin: 0;
+}
+.view-article ul.pagenav li > a:hover {
+  color: #fff;
+}
+.sp-megamenu-parent {
+  background-color: #eeeeee;
+}
+.sp-megamenu-parent li.sp-menu-item > a {
+  color: #000000;
+}
+.sp-megamenu-parent li.sp-menu-item.active > a:not(.sp-group-title) {
+  color: #000000;
+  background-color: #ffffff;
+}
+.sp-megamenu-parent li.sp-menu-item >a {
+  border-bottom: 1px solid #e5e5e5;
+}
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner ul.sp-dropdown-items li {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.sp-megamenu-parent li.sp-menu-item >a:not(.sp-group-title):hover,
+.sp-megamenu-parent li.sp-menu-item.active > a:not(.sp-group-title):hover {
+  color: #000000;
+  background-color: #ffffff;
+}
+.sp-megamenu-parent li.sp-menu-item >a:not(.sp-group-title):hover:after {
+  color: #000000;
+}
+.offcanvas-menu {
+  background-color: #eeeeee;
+}
+.offcanvas-menu .offcanvas-inner .sp-module ul > li >a,
+.offcanvas-menu .offcanvas-inner .sp-module ul > li:hover >a,
+.offcanvas-menu .offcanvas-inner .sp-module ul > li.active >a {
+  color: #000000;
+}
+.offcanvas-menu .sp-module ul > li .offcanvas-menu-toggler {
+  color: #000000;
+}
+.sp-my-account-menu:hover ul.menu {
+  background-color: #ffffff;
+}
+.sp-my-account-menu ul.menu a {
+  color: #000000;
+  border-bottom: solid 1px #e5e5e5;
+}
+.sp-my-account-menu ul.menu a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+.sp-my-account-menu ul.menu >li.current a {
+  background-color: #ffffff;
+  color: #000000;
+}
+ul.spmoviedb-movie-search {
+  background-color: #eeeeee;
+}
+ul.spmoviedb-movie-search.show-thumb li a:hover .spmoviedb-search-movie-genres {
+  color: #f26522;
+}
+ul.spmoviedb-movie-search li a {
+  color: #000000;
+}
+ul.spmoviedb-movie-search li {
+  border-bottom: solid 1px #e5e5e5;
+  color: #000000;
+}
+ul.spmoviedb-movie-search li a:hover {
+  color: #000000;
+}
+.view-trailers .spmoviedb-trailer-item-details .spmoviedb-movie-title a {
+  color: #000000;
+}
+.view-trailers .moviedb-trailer-loader,
+.view-trailers #movie-trailer-video .trailers-videos {
+  background-color: #eeeeee;
+}
+.view-trailers .sp-moviedb-view-items .item.active:before {
+  border-bottom-color: #ffffff;
+}
+.moviedb-signal-animate {
+  border-color: #f26522;
+}
+.sp-module .latestnews >div {
+  border-bottom: 1px solid #e5e5e5;
+}
+.page-header,
+.nav-tabs {
+  border-bottom: solid 1px #e5e5e5;
+}
+.accordion-group {
+  border: 1px solid #e5e5e5;
+}
+legend,
+.blog-featured legend {
+  border-bottom: solid 1px #e5e5e5;
+}
+.accordion-inner {
+  border-top: solid 1px #e5e5e5;
+}
+table.category tbody >tr {
+  border: 1px solid #e5e5e5;
+}
+.chzn-container .chzn-results li.active-result {
+  color: #ffffff;
+}

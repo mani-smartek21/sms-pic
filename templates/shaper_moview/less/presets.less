@@ -1,0 +1,510 @@
+/**
+* @package Helix Framework
+* @author JoomShaper http://www.joomshaper.com
+* @copyright Copyright (c) 2010 - 2016 JoomShaper
+* @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+*/
+
+@import 'variables';
+@import 'mixins';
+
+body {
+	color: @text_color;
+}
+body,
+.modal-content {
+	background-color: @bg_color;
+}
+
+#sp-header {
+	background-color: @header_bg;
+
+	#searchword,
+	select {
+		background-color: @header_bg;
+	}
+}
+
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+	background-color: @bg_color;
+	border-color: @border_color;
+	color: @text_color;
+	.placeholder(#888);
+}
+
+
+a,
+a:focus,
+.spmoviedb-trailers .movie-title a:hover,
+.spmoviedb-tab .owl-controls .owl-prev:hover::after,
+.spmoviedb-tab .owl-controls .owl-next:hover::after,
+.view-searchresults .moviedb-view-top-wrap .search-result-title &:before,
+.comingsoon-footer .social-icons li a &:hover,
+.sppb-addon-moview-title:hover:after,
+#offcanvas-toggler > i :hover,
+ul.social-icons > li a:hover,
+.sp-module ul > li > a:hover,
+.sp-module .latestnews > div > a:hover,
+#spmoviedb-movie .movie-name a:hover,
+#spmoviedb-movie .item .movie-details a:hover,
+#spmoviedb-movie .item:hover .play-icon:hover,
+.celebritie-details .celebritie-name a:hover,
+.view-movie .sppb-trailer-modal-item a:hover,
+.view-celebrity .sppb-trailer-modal-item a:hover,
+.view-trailers .spmoviedb-trailer-item-details .spmoviedb-movie-title a:hover,
+.movie-details-wrap .movie-info-sidebar a:hover,
+.celebrity-details-wrap .celebrity-info-sidebar a:hover,
+.user-reviews .reviewers-review .reviewers-name a:hover,
+.movie-showtime .category-list a:hover,
+.movie-showtime .movie-schedule .address i,
+.recommend-movies .movie-details a:hover,
+.sp-moviedb-view-items .item .movie-name a:hover,
+.spmoviedb-tab .movie-details .movie-name a:hover,
+.voting-symbol span.star.active:before,
+.pagination > li .active > a
+.pagination > li .active > a:hover,
+.pagination > li .active > a:focus,
+.pagination > li .active > span,
+.pagination > li .active > span:hover,
+.pagination > li .active > span:focus,
+.moview-before-title-icon,
+.spmoviedb-title .more-details a:hover
+.spmoviedb-title .more-details a:hover :after,
+.login .form-links a:hover,
+.login .form-links a:active,
+.login .form-links a:focus,
+.sp-moviedb-login .sp-login i.sp-moview-icon-user,
+.sp-moviedb-login .sp-signin i.sp-moview-icon-user,
+.sp-moviedb-login a:hover,
+.sppb-addon-articles .sppb-addon-title:before,
+.spmoviedb-twitter .sppb-tweet-slider .sppb-twitter-item-info a:hover,
+.spmoviedb-trailer-item .play-icon:hover,
+.basic-movie-info .sppb-addon-feature .sppb-media-body .continue:hover,
+.basic-movie-info .sppb-addon-feature .sppb-media-body .continue:hover:after,
+.mod-spmoviedb-celebrities .moviedb-celebrity-info .moviedb-celebrity-name a:hover,
+.view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd a:hover,
+.view-article article.item .entry-header-wrapper .entry-header .entry-title-info-wrap dl.article-info dd a:hover,
+.view-category article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2:hover a,
+.view-article article.item .entry-header-wrapper .entry-header .entry-title-info-wrap h2:hover a,
+.view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header dl.article-info dd a:hover,
+.sp-page-title .breadcrumb >.active,
+.sp-page-title .breadcrumb >span >li > li+li:before >li>a:hover,
+.btn.jmodedit,
+a.sppb-title-link:hover,
+a.sppb-title-link:hover:after,
+.sp-spmoviedb-trailers .sppb-addon-moview-title a.sppb-title-link:hover,
+.sp-spmoviedb-trailers .sppb-addon-moview-title a.sppb-title-link:hover:after,
+.moviedb-filters ul > li > a:hover,
+.btn-link,
+.close-offcanvas:hover,
+.moviedb-filters ul > li.active > a,
+.pagination >li.active >a, 
+.pagination >li.active >a:hover,
+.spmoviedb-tab .item:hover .play-icon:hover,
+.view-movies .item:hover .play-icon:hover,
+.view-trailers .item:hover .play-icon:hover,
+.view-celebrities .item:hover .play-icon:hover,
+.sp-spmoviedb-trailers-info .spmoviedb-trailer-info-block .spmoviedb-genry a:hover,
+.view-trailers .spmoviedb-trailer-item-details .trailer-genres a:hover,
+.movie-info .spmoviedb-genre-title:hover,
+.sp-moviedb-login .sp-login a:hover {
+	color: @major_color;
+}
+
+.view-article ul.pagenav li > a{
+	border: 1px solid @major_color; 
+}
+
+.moviedb-filters ul > li.active > a{
+	border-bottom-color: @major_color;  
+}
+
+ul.splms-courses-search li a:hover i,
+.moviedb-social-bar > li a:hover{
+	color: @major_color !important;
+}
+
+a:hover,
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before,
+.btn-link:hover{
+	color: darken(@major_color, 10%);
+}
+
+.sp-module .tagscloud .tag-name:hover,
+#spmoviedb-movie .owl-controls .owl-prev,
+#spmoviedb-movie .owl-controls .owl-next,
+#spmoviedb-movie .owl-dots .owl-dot.active span,
+#spmoviedb-movie .owl-dots .owl-dot:hover span,
+.slider-nav-thumbnails .slick-slide.slick-current,
+.spmoviedb-tab .nav-tabs > li > a:after,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover,
+.entry-link,
+.entry-quote,
+.post-format,
+.search .btn-toolbar button,
+.carousel-left:hover,
+.carousel-right:hover,
+.view-profile .profile .btn-toolbar .btn,
+.view-profile button,
+.sppb-addon-articles .sppb-addon-article:hover .sppb-meta-category,
+.sppb-addon-articles .article-info .sppb-meta-category:hover,
+.view-category article.item .entry-details-wrapper p.readmore a.btn,
+.view-article article.item .entry-details-wrapper p.readmore a.btn,
+.view-article .article-item-header-wrapper .entry-header-title-wrap .entry-header .entry-date-wrapper,
+.view-article ul.pagenav li > a,
+.view-article ul.pagenav li > a:hover{
+	background-color: @major_color;
+}
+
+#spmoviedb-movie .owl-controls .owl-prev:hover,
+#spmoviedb-movie .owl-controls .owl-next:hover,
+.video-container .video-close:hover::before,
+.video-container .video-close:hover::after{
+	background-color: darken(@major_color, 15%);
+}
+
+.view-category article.item .entry-details-wrapper p.readmore a.btn:hover,
+.view-article article.item .entry-details-wrapper p.readmore a.btn:hover{
+	background-color: darken(@major_color, 10%);
+}
+
+.sp-movie-celebrities .celebrity-thumbs button.celebrity-thumb-item.active:before,
+.spmoviedb-flickr .sppb-flickr-gallery >li > a:after{
+	background-color: fade(@major_color, 50%);
+}
+
+.view-category article.item .entry-header-wrapper:hover span.post-format,
+.view-category article.item .entry-header-wrapper:hover .entry-date-wrapper,
+.view-article article.item .entry-header-wrapper:hover span.post-format,
+.view-article article.item .entry-header-wrapper:hover .entry-date-wrapper{
+	background-color: fade(@major_color, 70%);
+}
+
+.sorting-by-alphabetical ul > li.active > a {
+	border-bottom-color: @major_color;
+}
+
+.video-container .video-close:hover,
+.moviedb-sorting-wrap .sorting-by-category ul > li > a:hover,
+.moviedb-sorting-wrap .sorting-by-category ul > li.active > a,
+blockquote {
+	border-color: @major_color;
+}
+
+//buttons
+.btn-primary,
+.sppb-btn-primary{
+	background-color: @major_color;
+	box-shadow: inset 0px -1px 0px darken(@major_color, 15%);
+
+	&:after{
+		background: linear-gradient(to top, darken(@major_color, 25%) 0%, darken(@major_color, 1%) 70%);
+		background: -webkit-linear-gradient(to top, darken(@major_color, 25%) 0%, darken(@major_color, 1%) 70%);
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		background-color: darken(@major_color, 10%);
+		box-shadow: inset 0px -1px 0px darken(@major_color, 25%);
+		&:after{
+			background: linear-gradient(to top, darken(@major_color, 35%) 0%, darken(@major_color, 10%) 70%);
+			background: -webkit-linear-gradient(to top, darken(@major_color, 35%) 0%, darken(@major_color, 10%) 70%);
+		}
+	}
+}
+
+// Search
+.sppb-addon-moview-title,
+.input-group.moviedb-search-wrap,
+#moviedb-search .search-panel .select-menu,
+.spmoviedb-title,
+.basic-movie-info .sppb-addon-text-block,
+.moview-top-celebraties .sppb-addon-text-block,
+.modal-footer,
+.movie-showtime .movie-schedule,
+.spmoviedb-filmography ul.spmoviedb-film-list > li {
+	border-color: @border_color;
+}
+
+.spmoviedb-title .more-details a::after {
+	color: @border_color;
+}
+// Color
+.offcanvas-menu .offcanvas-inner .sp-module .sp-module-title,
+.sppb-addon-articles .article-info .article-title a,
+.sppb-article-meta span,
+.mod-spmoviedb-celebrities .moviedb-celebrity-info .moviedb-celebrity-name a,
+.sorting-by-alphabetical .select-menu select,
+.sorting-by-alphabetical .select-menu::after,
+.recommend-movies .movie-details a,
+.movie-info-sidebar .movie-social-icon > span,
+.celebrity-info-sidebar .movie-social-icon > span,
+.spmoviedb-filmography ul.spmoviedb-film-list > li .details a,
+.spmoviedb-tab .nav-tabs > li > a,
+#sp-login .sp-mod-login .sp-signin a,
+.sp-moviedb-login .sp-login a,
+.sp-moviedb-login .sp-signin a,
+.sp-moviedb-login .modal-content .modal-body .forget-name-link a,
+#offcanvas-toggler > i,
+.sp-module ul > li > a,
+.sp-module .latestnews >div > a,
+.login .form-links a,
+.pagination >li >a:hover,
+.moviedb-filters ul > li > a,
+.view-article .acticle-bottom-wrapper dd.post_rating,
+.social-share-title p,
+.entry-header h2 a,
+legend {
+	color: @text_color;
+}
+
+.spmoviedb-tab .owl-controls .owl-nav:before{
+	background-color: @border_color;
+}
+
+.sorting-by-alphabetical ul > li.active > a,
+.sorting-by-alphabetical ul > li:hover > a,
+.sp-moviedb-view-items .item .movie-name a,
+.movie-details-wrap .movie-info-sidebar a,
+.celebrity-details-wrap .celebrity-info-sidebar a,
+.celebritie-details .celebritie-name a,
+.spmoviedb-tab .movie-details .movie-name a,
+.sorting-by-alphabetical .total,
+#sp-spmoviedb-tab .nav-tabs>li.active>a,
+#sp-spmoviedb-tab .nav-tabs>li.active>a:hover,
+#sp-spmoviedb-tab .nav-tabs>li.active>a:focus,
+.spmoviedb-tab .nav-tabs > li > a:hover {
+	color: lighten(@text_color, 10%);
+}
+.sppb-addon-moview-title .sppb-title-link{
+	color: lighten(@text_color, 50%);
+}
+.sppb-addon-moview-title .sppb-title-link:after{
+	color: lighten(@text_color, 90%);
+}
+
+.acticle-bottom-wrapper{
+	border-top: solid 1px @border_color;
+	border-bottom: solid 1px @border_color;
+}
+
+// Pagination
+.pagination {
+	margin-bottom: 0;
+
+	>li{
+		>a,
+		>span {
+			background-color: @bg_color;
+			border-color: @border_color;
+
+			&:hover,
+			&:focus {
+				border-color: @border_color;
+			}
+		}
+
+		&.active {
+			>a,
+			>a:hover,
+			>a:focus,
+			>span,
+			>span:hover,
+			>span:focus {
+				border-color: @border_color;
+			}
+		}
+	}
+}
+.pagination>.disabled>a{
+	border-color: @border_color;
+}
+.pagination>.disabled>a:hover{
+	border-color: @border_color;
+}
+
+// Review
+.user-reviews {
+	.review-box {
+		background-color: @review_box_bg;
+
+		textarea {
+			background-color: lighten(@bg_color, 8%);
+			border-color: @border_color;
+			.form-control-focus();
+		}
+
+		textarea[disabled] {
+			background-color: #eeeeee;
+		}
+
+		&:before {
+			border-color: transparent @review_box_bg transparent transparent;
+		}
+	}
+}
+
+//Popup
+#reviewers-form-popup{
+	background-color: lighten(@bg_color, 8%);
+}
+
+//Blog Details
+.view-article{
+	.article-item-header-wrapper{
+		.entry-header-title-wrap{
+			.entry-header{
+				.entry-date-wrapper{
+					float: left;
+				}
+			}
+		}
+	}
+	ul.pagenav{
+		margin: 0;
+		li > a{
+			&:hover{
+				color: #fff;
+			}
+		}
+	}
+}
+
+//Mega Menu
+.sp-megamenu-parent{
+	background-color: @menu_bg;
+}
+.sp-megamenu-parent li.sp-menu-item > a{
+	color: @text_color;
+}
+.sp-megamenu-parent li.sp-menu-item.active > a:not(.sp-group-title){
+	color: @text_color;
+	background-color: @bg_color;
+}
+.sp-megamenu-parent li.sp-menu-item >a{
+	border-bottom: 1px solid @border_color;
+}
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner ul.sp-dropdown-items li{
+	background-color: @menu_bg;
+	color: @text_color;
+}
+.sp-megamenu-parent li.sp-menu-item >a:not(.sp-group-title):hover,
+.sp-megamenu-parent li.sp-menu-item.active > a:not(.sp-group-title):hover{
+	color: @text_color;
+	background-color: @bg_color;
+}
+.sp-megamenu-parent li.sp-menu-item >a:not(.sp-group-title):hover:after{
+	color: @text_color;
+}
+
+// offcanvas menu
+.offcanvas-menu{
+	background-color: @menu_bg;
+	.offcanvas-inner .sp-module ul > li{
+		>a,
+		&:hover >a,
+		&.active >a{
+		 	color: @text_color;
+		 }
+	}
+	.sp-module ul > li .offcanvas-menu-toggler{
+		color: darken(@text_color, 10%)
+	}
+}
+
+//Login
+.sp-my-account-menu:hover ul.menu{
+	background-color: @header_bg;
+}
+.sp-my-account-menu ul.menu a{
+	color: @text_color;
+	border-bottom: solid 1px @border_color;
+}
+.sp-my-account-menu ul.menu a:hover{
+	background-color: @bg_color;
+	color: @text_color;
+}
+.sp-my-account-menu ul.menu >li.current a{
+	background-color: @bg_color;
+	color: @text_color;
+}
+
+//Moviedb search
+ul.spmoviedb-movie-search{
+	background-color: @menu_bg;
+	&.show-thumb li a:hover .spmoviedb-search-movie-genres {
+		color: @major_color;
+	}
+}
+
+ul.spmoviedb-movie-search li a{
+	color: @text_color;
+}
+ul.spmoviedb-movie-search li{
+	border-bottom: solid 1px @border_color;
+	color: @text_color;
+}
+
+ul.spmoviedb-movie-search li a:hover{
+  color: @text_color;
+}
+
+//Traillers Details
+.view-trailers .spmoviedb-trailer-item-details .spmoviedb-movie-title a{
+	color: @text_color;
+}
+.view-trailers .moviedb-trailer-loader,
+.view-trailers #movie-trailer-video .trailers-videos{
+	background-color: @menu_bg;
+}
+.view-trailers .sp-moviedb-view-items .item.active:before{
+	border-bottom-color: @header_bg;
+}
+
+//Signal Animation
+.moviedb-signal-animate {
+    border-color: @major_color;
+}
+
+.sp-module .latestnews >div{
+	border-bottom: 1px solid @border_color;
+}
+
+.page-header,
+.nav-tabs{
+	border-bottom: solid 1px @border_color;
+}
+.accordion-group{
+	border: 1px solid @border_color;
+}
+legend,
+.blog-featured legend{
+	border-bottom: solid 1px @border_color;
+}
+.accordion-inner{
+	border-top: solid 1px @border_color;
+}
+table.category tbody >tr{
+	border: 1px solid @border_color;
+}
+.chzn-container .chzn-results li.active-result {
+	color: @bg_color;
+}
